@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style/style.css">
+        <title>PC Minigolf</title>
+        <link rel="stylesheet" href="">
+        <script src="https://kit.fontawesome.com/69b5a85712.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="Images/birdie (1).png">
+    </head>
+    <body>
+        <header>
+            <div id="brand"><a href="/"><img class="logo" src="Images/longLogo.png"></a></div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="viewcourse.html">View The Course</a></li>
+                    <li><a href="about.html">About PCM</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contacts.html">Contact Us</a></li>
+                    <li><a href="newFeatures.html">New Features!</a></li>
+                    <li id="book"><a href="rentalform.html">Book Rental</a></li>
+                </ul>
+            </nav>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="viewcourse.html">View The Course</a></li>
+                    <li><a href="about.html">About PCM</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contacts.html">Contact Us</a></li>
+                    <li id="book"><a href="rentalform.html">Book Rental</a></li>
+                </ul>
+
+            </div>
+        </header>
+        <script src="index.js"></script>
+        <section class="home">
+            <div class="half1"> 
+               <div class="text">
+                   <h1>Rental Form</h1> 
+                   <br>
+                   
+               </div>
+               <section class="rentalForm">
+                
+                
+                <h3> Please fill out the form below. Once submitted, we will review your form and email you with further information.</h3>
+    
+                <form action="https://formsubmit.co/ca361ba4fb56c8523f869c4b3a1abfda" method="post">
+                    <input name="FullName" placeholder="Full Name*" required /> <br>
+                    <input name="PhoneNumber" placeholder="Phone Number*" type="tel"required> <br>
+                    <input name="Email" placeholder="email*" type="email"required/> <br>
+                    <input name="Approximate Number of Guests" placeholder="Approximate Number of Guests" type="number"/> <br>
+                    <input name="Event Type" placeholder="Event Type (Birthday Party, Wedding, etc.)" /> <br>
+                    <input name="Event Location" placeholder="Event Location (Adress)" /> <br>
+                    <p>Date of the event, and time of delivery:</p>
+                    <input type="datetime-local" name="EventDateTime"/> <br>
+    
+                    <label for="NumOfHoles"> Choose Number of Holes Needed for Your Event: </label>
+                    <select id="NumOfHoles" name="NumOfHoles">
+                        <option value="6">5</option>
+                        <option value="9">7</option>
+                        <option value="9">9</option>
+                        <option value="NotSure" selected>Not Sure</option>
+                        
+                    </select>
+    
+                    <br>
+    
+                    <input name="OtherDetails" placeholder="Any Other Details You'd Like To Share"/> <br>
+    
+                    <button type="Submit">SUBMIT</button>
+                </form>
+            </section>
+               
+               
+           </div>
+           <div class="otherHalf">
+            <div class="image">
+                <img src="Images/IMG_5212.jpeg" alt="Cinque Terre">
+              </div>
+               
+              
+
+               
+           </div>
+          
+       </section>
+       <div class="background">
+           <footer>
+               <img src="Images/background copy.png" alt="">
+               
+           </footer>
+    </body>
+    </html>
